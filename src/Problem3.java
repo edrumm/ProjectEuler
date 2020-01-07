@@ -7,7 +7,11 @@ public class Problem3 {
      * Calculate lpf of 600,851,475,143
      */
 
-    static long calculate(long n) {
+    public long run() {
+        return calculate(600851475143L);
+    }
+
+    public long calculate(long n) {
         long factor = 0;
 
         // Test only with odd numbers as evens are not prime and testing with all values takes a VERY long time
@@ -21,7 +25,7 @@ public class Problem3 {
         return factor;
     }
 
-    static boolean isPrime(long n) {
+    private boolean isPrime(long n) {
 
         for (int i = 3; i <= Math.sqrt(n); i += 2) {
 
@@ -31,9 +35,5 @@ public class Problem3 {
         }
 
         return true;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(calculate(600851475143L));
     }
 }

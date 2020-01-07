@@ -7,7 +7,11 @@ public class Problem2 {
      * Find the sum of all even Fibonacci numbers up to 4,000,000
      */
 
-    static int fibonacci() {
+    public int run() {
+        return fibonacci();
+    }
+
+    public int fibonacci() {
         int sum = 0;
         int a = 1, b = 2, ab = 0;
 
@@ -25,13 +29,9 @@ public class Problem2 {
         return sum;
     }
 
-    static boolean isEven(int n) {
+    private boolean isEven(int n) {
 
         return (n % 2 == 0);
 
-    }
-
-    public static void main(String[] args) {
-        System.out.println(fibonacci());
     }
 }
