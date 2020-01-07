@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f37e573-c4fc-47ff-9a76-4770574b61dd" name="Default Changelist" comment="" />
+    <list default="true" id="4f37e573-c4fc-47ff-9a76-4770574b61dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +20,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W4jd29oFxvUse14sIKO2GtSEWx" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Problem2">
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Problem3">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ProjectEuler" />
@@ -45,15 +57,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Problem3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Problem3" />
+      <module name="ProjectEuler" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Problem1" />
       <item itemvalue="Application.Problem2" />
+      <item itemvalue="Application.Problem3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Problem2" />
+        <item itemvalue="Application.Problem3" />
         <item itemvalue="Application.Problem1" />
+        <item itemvalue="Application.Problem2" />
       </list>
     </recent_temporary>
   </component>
@@ -73,25 +94,25 @@
     <configuration />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578417236539">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578432955407">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578417236539" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578417236539">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578432955407" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578432955406">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578417236539" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578417236538">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578432955406" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578432955406">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578417236538" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578417236539">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578432955405" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578432955406">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578417236539" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578415908350">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578432955406" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578429955592">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578415908350" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578429955592" />
   </component>
 </project>
