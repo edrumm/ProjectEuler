@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f37e573-c4fc-47ff-9a76-4770574b61dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Problem5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Problem6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Problem7.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectEuler/Problem1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectEuler/Problem1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectEuler/Problem2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectEuler/Problem2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EulerSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerSolutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,40 +64,41 @@
     <MESSAGE value="finished problem 3" />
     <MESSAGE value="tidy up, added main solution class" />
     <MESSAGE value="started #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="started #4" />
+    <MESSAGE value="finished 4, 5, 6 and big tidy-up" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished 4, 5, 6 and big tidy-up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578434736607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1578434736607" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1578435917305">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1578444086511">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578435917305" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578444006347">
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578444086511" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578496684808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578444006347" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578444006347">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578496684808" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578496684808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578444006347" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578444006347">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578496684808" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578496684808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578444006347" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578444006347">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578496684808" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578496684808">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578444006347" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578435920185">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578496684808" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578444089658">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578435920185" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578439581949">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578444089658" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578496113959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578439581949" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578496113959" />
   </component>
 </project>
