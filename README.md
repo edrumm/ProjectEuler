@@ -15,3 +15,4 @@ My attempt at ProjectEuler challenges
 |5  |232,792,560|
 |6  |25,164,150|
 |7  |104,743|
+|8  |23,514,624,000|
