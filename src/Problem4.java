@@ -2,32 +2,37 @@ public class Problem4 {
 
     /*
      * ProjectEuler problem 3
-     * Largest pallindrome product
+     * Largest palindrome product
      *
      * Find the largest palindrome made from the product of two 3-digit numbers
      */
 
-    // TODO:
     public int run() {
-        return calculate();
+        int pal = 0;
+
+        for (int i = 100; i < 1000; i++) {
+            for (int j = i; j < 1000; j++) {
+
+                int ij = i * j;
+
+                if (palindrome(ij) && ij > pal) {
+                    pal = i * j;
+                }
+            }
+        }
+        return pal;
     }
 
-    private int calculate() {
-        return 0;
-    }
-
-    private int isPalidrome(int n) {
-        return 0;
-    }
-
-    private int reverse(int n) {
+    private boolean palindrome(int n) {
         int reversed = 0;
 
-        while (n != 0) {
-            // TODO
-            // ...
+        for (int i = n; i != 0; i /= 10) {
+            reversed = reversed * 10 + i % 10;
         }
 
-        return reversed;
+        if (n == reversed) {
+            return true;
+        }
+        return false;
     }
 }

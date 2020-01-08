@@ -1,3 +1,16 @@
 # ProjectEuler
 
+My attempt at ProjectEuler challenges
+
 [https://projecteuler.net/]()
+
+## Solutions
+
+|#|Output|
+|---|----|
+|1  |233,168|
+|2  |4,613,732|
+|3  |6,857|
+|4  |906,609|
+|5  |232,792,560|
+|6  |25,164,150|

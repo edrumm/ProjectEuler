@@ -4,20 +4,17 @@ public class Problem2 {
      * ProjectEuler problem 1
      * Even Fibonacci numbers
      *
-     * Find the sum of all even Fibonacci numbers up to 4,000,000
+     * By considering the terms in the Fibonacci sequence whose values do not exceed four million,
+     * find the sum of the even-valued terms.
      */
 
     public int run() {
-        return fibonacci();
-    }
-
-    public int fibonacci() {
         int sum = 0;
         int a = 1, b = 2, ab = 0;
 
         while (a < 4000000) {
 
-            if (isEven(a)) {
+            if (a % 2 == 0) {
                 sum += a;
             }
 
@@ -25,13 +22,6 @@ public class Problem2 {
             a = b;
             b = ab;
         }
-
         return sum;
-    }
-
-    private boolean isEven(int n) {
-
-        return (n % 2 == 0);
-
     }
 }
