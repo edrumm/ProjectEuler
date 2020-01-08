@@ -19,7 +19,7 @@ public class Problem8 {
                 + "1786645835912456652947654568284891288314260769004224219022671055626321111109370544217506941658960408"
                 + "0719840385096245544436298123098787992724428490918884580156166097919133875499200524063689912560717606"
                 + "0588611646710940507754100225698315520005593572972571636269561882670428252483600823257530420752963450";
-        long prod = 0;
+        long product = 0;
 
         for (int i = 13; i < number.length(); i++) {
             String adj = number.substring(i - 13, i);
@@ -29,10 +29,10 @@ public class Problem8 {
                 n *= Character.getNumericValue(adj.charAt(j));
             }
 
-            if (n > prod) {
-                prod = n;
+            if (n > product) {
+                product = n;
             }
         }
-        return prod;
+        return product;
     }
 }
