@@ -12,6 +12,7 @@ public class EulerSolutions {
         System.out.println("08: " + new Problem8().run());
         System.out.println("09: " + new Problem9().run());
         System.out.println("10: " + new Problem10().run());
+        System.out.println("11: " + new Problem11().run());
         System.out.println(System.currentTimeMillis() - start + "ms");
     }
 }
