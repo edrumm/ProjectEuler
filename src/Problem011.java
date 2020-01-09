@@ -1,10 +1,11 @@
-public class Problem11 {
+public class Problem011 {
 
     /*
      * ProjectEuler problem 11
-     * Summation of primes
+     * Largest product in a grid
      *
-     * Find the sum of all the primes below two million.
+     * What is the greatest product of four adjacent numbers in the same direction
+     * (up, down, left, right, or diagonally) in the 20×20 grid?
      */
 
     public int run() {

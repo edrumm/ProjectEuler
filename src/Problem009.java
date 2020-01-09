@@ -1,4 +1,4 @@
-public class Problem9 {
+public class Problem009 {
 
     /*
      * ProjectEuler problem 9
