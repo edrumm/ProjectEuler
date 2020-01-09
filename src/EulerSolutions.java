@@ -10,6 +10,8 @@ public class EulerSolutions {
         System.out.println("06: " + new Problem6().run());
         System.out.println("07: " + new Problem7().run());
         System.out.println("08: " + new Problem8().run());
+        System.out.println("09: " + new Problem9().run());
+        System.out.println("10: " + new Problem10().run());
         System.out.println(System.currentTimeMillis() - start + "ms");
     }
 }
