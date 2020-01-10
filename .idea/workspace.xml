@@ -3,20 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f37e573-c4fc-47ff-9a76-4770574b61dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectEuler/Problem1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjectEuler/Problem2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EulerSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerSolutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem010.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem011.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem003.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem005.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem006.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem007.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem008.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem009.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Problem011.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem011.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,40 +68,41 @@
     <MESSAGE value="7, 8 tidied up" />
     <MESSAGE value="finished 9" />
     <MESSAGE value="finished 10, started 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished 10, started 11" />
+    <MESSAGE value="renamed all files" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed all files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578434736607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1578434736607" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1578609496339">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1578609844803">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578609496339" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578609817937">
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1578609844803" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1578609913509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578609817937" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578609817936">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578609913509" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1578609913509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578609817936" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578609817935">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578609913509" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1578609913509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578609817935" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578609817936">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578609913509" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1578609913509">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578609817936" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578609498409">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578609913509" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1578609851112">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578609498409" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578607663934">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1578609851112" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1578652278055">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578607663934" />
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1578652278055" />
   </component>
 </project>
