@@ -32,19 +32,40 @@ public class Problem011 {
     };
 
     public int run() {
+        int product = -1;
 
-        int product = 1;
-
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[i].length; j++) {
-                // TODO
+        for (int y = 0; y < grid.length; y++) {
+            for (int x = 0; x < grid[y].length; x++) {
+                // vertical product
+                product = Math.max(product(x, y, 0, 1), product);
+                // horizontal product
+                product = Math.max(product(x, y, 1, 0), product);
+                // diagonal vertical product
+                product = Math.max(product(x, y, 1, 1), product);
+                // diagonal vertical product (downwards)
+                product = Math.max(product(x, y, 1, -1), product);
             }
         }
 
         return product;
     }
 
-    private boolean inBounds(int i, int j) {
-        return (i >= 0 && j >= 0 && i < grid.length && j < grid[i].length);
+    private int product(int x, int y, int xDir, int yDir) {
+        int product = 1;
+
+        if (!inBounds(x + (3 * xDir), y + (3 * yDir))) {
+            return 0;
+        }
+
+        for (int i = 0; i < 4; i++) {
+            product *= grid[y][x];
+            x += xDir;
+            y += yDir;
+        }
+        return product;
+    }
+
+    private boolean inBounds(int x, int y) {
+        return (x >= 0 && y >= 0 && y < grid.length && x < grid[y].length);
     }
 }
