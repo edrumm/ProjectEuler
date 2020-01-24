@@ -13,7 +13,6 @@ public class EulerSolutions {
         // System.out.println("09: " + new Problem009().run());
         // System.out.println("10: " + new Problem010().run());
         // System.out.println("11: " + new Problem011().run());
-        System.out.println("12: " + new Problem012().run());
-
+        // System.out.println("12: " + new Problem012().run());
     }
 }
