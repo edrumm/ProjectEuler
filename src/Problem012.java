@@ -10,6 +10,7 @@ public class Problem012 {
 
     public int run() {
         int triNumber = 0;
+
         for (int i = 1; i < Integer.MAX_VALUE - triNumber; i++) {
             triNumber += i;
 
@@ -22,7 +23,6 @@ public class Problem012 {
 
 
     private int divisors(int n) {
-        // start at 2 as we know n is divisible by n and 1
         int divs = 0;
 
         if (Math.sqrt(n) * Math.sqrt(n) == n) {
