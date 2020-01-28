@@ -1,7 +1,7 @@
 public class EulerSolutions {
 
     public static void main(String[] args) {
-        // UNCOMMENT TO RUN :)
+        // Uncomment to run:
         // System.out.println("01: " + new Problem001().run());
         // System.out.println("02: " + new Problem002().run());
         // System.out.println("03: " + new Problem003().run());
@@ -14,5 +14,6 @@ public class EulerSolutions {
         // System.out.println("10: " + new Problem010().run());
         // System.out.println("11: " + new Problem011().run());
         // System.out.println("12: " + new Problem012().run());
+        // System.out.println("13: " + new Problem013().run());
     }
 }
