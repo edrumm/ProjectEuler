@@ -15,5 +15,6 @@ public class EulerSolutions {
         // System.out.println("11: " + new Problem011().run());
         // System.out.println("12: " + new Problem012().run());
         // System.out.println("13: " + new Problem013().run());
+        System.out.println("14: " + new Problem014().run());
     }
 }
