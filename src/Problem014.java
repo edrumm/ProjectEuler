@@ -1,4 +1,5 @@
 public class Problem014 {
+
     /*
      * ProjectEuler problem 14
      * Longest Collatz sequence

@@ -1,6 +1,10 @@
 public class EulerSolutions {
 
+    // GitHub: edrumm
+    // https://projecteuler.net
+
     public static void main(String[] args) {
+        System.out.println("Project Euler: https://projecteuler.net");
         // Uncomment to run:
         // System.out.println("01: " + new Problem001().run());
         // System.out.println("02: " + new Problem002().run());
@@ -15,6 +19,8 @@ public class EulerSolutions {
         // System.out.println("11: " + new Problem011().run());
         // System.out.println("12: " + new Problem012().run());
         // System.out.println("13: " + new Problem013().run());
-        System.out.println("14: " + new Problem014().run());
+        // System.out.println("14: " + new Problem014().run());
+        // System.out.println("15: " + new Problem015().run());
+        // System.out.println("16: " + new Problem016().run());
     }
 }
