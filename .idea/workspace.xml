@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f37e573-c4fc-47ff-9a76-4770574b61dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EulerSolutions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EulerSolutions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Problem017.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Problem017.java" afterDir="false" />
-    </list>
+    <list default="true" id="4f37e573-c4fc-47ff-9a76-4770574b61dd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,47 +75,48 @@
     <MESSAGE value="finished 014" />
     <MESSAGE value="finished 015, 016 / updated 014" />
     <MESSAGE value="started 017" />
-    <option name="LAST_COMMIT_MESSAGE" value="started 017" />
+    <MESSAGE value="continued 017" />
+    <option name="LAST_COMMIT_MESSAGE" value="continued 017" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578434736607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1578434736607" />
-    <state x="416" y="0" key="CommitChangelistDialog2" timestamp="1581380076647">
+    <state x="416" y="0" key="CommitChangelistDialog2" timestamp="1584627119151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1580171113969" />
-    <state x="416" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581380076647" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1584624516728">
+    <state x="416" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584627119151" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1584665800713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580171194266" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584624516728" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1584624516727">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584665800713" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1584665800712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580171194265" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584624516727" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1584624516727">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584665800712" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1584665800711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580171194265" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584624516727" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1584624516728">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584665800711" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1584665800713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580171194265" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584624516728" />
-    <state x="350" y="112" key="Vcs.Push.Dialog.v2" timestamp="1581380079781">
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584665800713" />
+    <state x="350" y="112" key="Vcs.Push.Dialog.v2" timestamp="1584627122203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1580171116632" />
-    <state x="350" y="112" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581380079781" />
-    <state x="506" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1584621707921">
+    <state x="350" y="112" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584627122203" />
+    <state x="506" y="251" key="com.intellij.ide.util.TipDialog" timestamp="1584665644158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580170509342" />
-    <state x="506" y="251" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584621707921" />
+    <state x="506" y="251" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584665644158" />
   </component>
 </project>

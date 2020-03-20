@@ -12,45 +12,57 @@ public class Problem017 {
                                 "eight", "nine"};
     private String[] teens = {"eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen",
                                 "seventeen", "eighteen", "nineteen"};
-    private String[] tens = {"ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy",
+    private String[] tens = {"", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy",
                                 "eighty", "ninety"};
 
     public int run() {
-        int h = 0, t = 0, u = 1; // hundreds, tens, units
-        int chrCount = 0;
-        String words;
+        int h = 0, t = 0, u = 1, count = 0;
+        for (int i = 0; i < 999; i++) {
 
-        for (int i = 0; i <= 1000; i++) {
-            words = "";
-
-            if (u > 9) { u = 0; }
-
-            if (h != 0 && t == 0 && u == 0) {
-                words += units[h] + "hundred";
-                chrCount += words.length();
-
-                u++;
-                continue;
-
-            } else if (h != 0) {
-                words += units[h] + "hundredand"; // ignore spaces in final count
+            if (u > 9) {
+                t++;
+                u = 0;
             }
 
-            if (t == 0 && u == 0) {
-                words += tens[t];
-                chrCount += words.length();
-
-                u++;
-                continue;
-
-            } else {
-                words += tens[t];
+            if (t > 9) {
+                h++;
+                t = 0;
             }
 
-            // TODO:
-
+            count += toWords(h, t, u).length();
+            u++;
         }
 
-        return 0;
+        String thousand = "onethousand";
+        count += thousand.length();
+
+        return count;
+    }
+
+    private String toWords(int h, int t, int u) {
+        String str = "";
+
+        if (h > 0 && t == 0 && u == 0) {
+            return units[h] + "hundred";
+
+        } else if (h > 0) {
+            str += units[h] + "hundredand";
+        }
+
+        if (t == 0 && u > 0) {
+            str += units[u];
+
+        } else if (u == 0 && t > 0) {
+            str += tens[t];
+
+        } else if (t == 1 && u > 0) {
+            str += teens[u - 1];
+
+        } else {
+            str += tens[t];
+            str += units[u];
+        }
+
+        return str;
     }
 }
